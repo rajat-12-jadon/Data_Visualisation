@@ -1,142 +1,154 @@
-# 📊 Data Visualisation
+# 📊 Data Visualization Learning
 
-Welcome to my Data Visualisation learning journey!
+A structured repository documenting my journey of learning Data Visualization using Python.
 
-This repository documents my hands-on learning of data visualization using Python libraries such as Matplotlib, Seaborn, Plotly, and Cufflinks.
-
-The goal of this repository is to learn how to transform raw data into meaningful visual insights through static and interactive visualizations.
+This repository covers fundamental and advanced visualization libraries along with a real-world IPL Capstone Project.
 
 ---
 
-## 📚 Topics Covered
+## 🚀 Topics Covered
 
-### ✅ Matplotlib Fundamentals
+### Matplotlib
 
-- Plotting Basics
-- Titles and Labels
-- Axes and Figures
-- Subplots
-- Object-Oriented Interface
-- Figure Size and DPI
-- Saving Figures
-
-### ✅ Types of Plots
-
-- Line Plot
-- Scatter Plot
-- Histogram
-- Box Plot
-
-### ✅ Working with Images
-
-- Reading Images
-- Displaying Images
-- Cropping Images
-- Image Visualization
-
-### ✅ Plot Customization
-
-- Colors
-- Line Widths
-- Line Styles
-- Markers
-- Marker Styling
-- Figure Customization
+* Plot Basics
+* Subplots
+* Object-Oriented Approach
+* Scatter Plots
+* Histograms
+* Box Plots
+* Saving Figures
+* Working with Images
+* Plot Styling and Customization
 
 ---
 
-## 📓 Notebooks
+### Seaborn
 
-- `matplotlib.ipynb`
+#### Distribution Plots
+
+* Histplot
+* Jointplot
+* Pairplot
+* Rugplot
+
+#### Categorical Plots
+
+* Countplot
+* Barplot
+* Boxplot
+* Violinplot
+* Stripplot
+* Swarmplot
+
+#### Matrix Plots
+
+* Heatmap
+* Clustermap
+* Pivot Table Heatmap
+
+#### Regression Plots
+
+* lmplot
+
+---
+
+### Plotly
+
+* Interactive Line Charts
+* Interactive Bar Charts
+* Interactive Scatter Plots
+* Interactive Box Plots
+* Plotly Express Fundamentals
+
+---
+
+### Cufflinks
+
+* Pandas Integration with Plotly
+* Interactive Visualizations using `.iplot()`
+* Comparison with Modern Plotly Express
+
+---
+
+## 🏏 Capstone Project
+
+### IPL Data Analysis Project
+
+Applied all learned concepts on a real-world IPL dataset.
+
+Key analyses include:
+
+* Team Performance Analysis
+* Toss Impact Analysis
+* Venue Analysis
+* Match Trends
+* Player Performance Analysis
+* Season-wise Insights
+* Data Visualization Dashboard
 
 ---
 
 ## 📂 Repository Structure
 
 ```text
-Data_Visualisation/
+Data_Visualization/
 │
-├── matplotlib.ipynb
-├── Basicplot.png
-├── rajat.jpeg
+├── Matplotlib/
+│   ├── matplotlibFundamentals.ipynb
+│   └── notes.md
+│
+├── Seaborn/
+│   ├── distributionPlots.ipynb
+│   ├── categoricalPlots.ipynb
+│   ├── matrixPlots.ipynb
+│   ├── regressionPlots.ipynb
+│   └── notes.md
+│
+├── Plotly_Cufflinks/
+│   ├── plotlyAndCufflinks.ipynb
+│   └── notes.md
+│
+├── IPL_Capstone_Project/
+│   ├── IPL_Capstone_Project.ipynb
+│   ├── dataset.csv
+│   └── notes.md
+│
 ├── README.md
 └── .gitignore
 ```
 
 ---
 
-## 🎯 Learning Outcomes
+## 🛠️ Libraries Used
 
-- Learned the fundamentals of data visualization using Matplotlib.
-- Created different types of visualizations.
-- Worked with figures, axes, and subplots.
-- Customized plots using colors, markers, and styles.
-- Saved visualizations as image files.
-- Learned image visualization and cropping techniques.
-- Built a strong foundation for advanced visualization libraries.
-
----
-
-## 🔑 Key Functions Practiced
-
-```python
-plt.plot()
-plt.scatter()
-plt.hist()
-plt.boxplot()
-plt.subplot()
-plt.subplots()
-plt.figure()
-fig.add_axes()
-
-plt.title()
-plt.xlabel()
-plt.ylabel()
-
-plt.savefig()
-
-plt.imshow()
-plt.axis()
-
-mpimg.imread()
-```
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Plotly
+* Cufflinks
 
 ---
 
-## 🛠️ Technologies Used
+## 🎯 Learning Outcome
 
-- Python
-- NumPy
-- Pandas
-- Matplotlib
-- Jupyter Notebook
+After completing this repository, I can:
 
----
-
-## 🚀 Upcoming Topics
-
-- Seaborn
-- Plotly
-- Cufflinks
-- Interactive Visualizations
-- Visualization Projects
+* Create static and interactive visualizations
+* Perform Exploratory Data Analysis (EDA)
+* Understand distributions and relationships in data
+* Build insightful dashboards and reports
+* Apply visualization techniques to real-world datasets
 
 ---
 
-## 🎯 Next Learning Path
+## 🔗 Next Step
 
-```text
-✅ Python Fundamentals
-✅ NumPy Fundamentals
-✅ Pandas Fundamentals
-✅ Matplotlib Fundamentals
+Moving towards:
 
-⏭️ Seaborn
-⏭️ Plotly
-⏭️ Cufflinks
-⏭️ Machine Learning
-```
-
----
-
-🚀 Building a strong foundation in data visualization to better understand, analyze, and communicate data through meaningful visual insights.
+* Statistics
+* Scikit-Learn
+* Machine Learning
+* Feature Engineering
+* End-to-End Data Science Projects
